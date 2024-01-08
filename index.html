@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hero Section with Slider</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="nav-left">
+        <img src="./images/voilaa logo.png" alt="" class="nav-logo2" />
+        <img src="./images/Group 22.svg" alt="Logo" class="nav-logo" />
+      </div>
+      <div class="nav-middle">
+        <a href="./index.html">Home</a>
+        <a href="./service.html">About</a>
+        <a href="./service.html">Services</a>
+        <a href="./service.html">Gallery</a>
+      </div>
+      <div class="nav-right">
+        <a href="#" class="social-icon"
+          ><span><i class="fa-brands fa-facebook"></i></span
+        ></a>
+        <!-- Replace FB with actual icon -->
+        <a href="#" class="social-icon"
+          ><span><i class="fa-brands fa-x-twitter"></i></span
+        ></a>
+        <!-- Replace TW with actual icon -->
+        <a href="#" class="social-icon"
+          ><span><i class="fa-brands fa-instagram"></i></span
+        ></a>
+        <!-- Replace IG with actual icon -->
+        <a href="#" class="social-icon"
+          ><span><i class="fa-brands fa-linkedin"></i></span
+        ></a>
+        <!-- Replace LN with actual icon -->
+        <button class="contact-btn">Contact Us</button>
+      </div>
+    </nav>
+
+    <div id="main">
+      <div id="mainImg"></div>
+      <h1 id="mainH1">VOILLAA <br /></h1>
+      <h1 id="mainH1-2">COMMUNICATIONS</h1>
+      <p class="main-p">Crafting Brand Immiscible</p>
+      <div class="image"></div>
+    </div>
+
+    <!-- <div class="slider">
+      <div
+        class="slide active"
+        style="
+          background-image: url('./images/james-ting-VIhBOwitqu8-unsplash.jpg');
+        "
+      >
+        <div class="gradient-overlay"></div>
+        <div class="overlay-text animate-text">
+          <h1>
+            Build Brand <br />
+            Awareness <br />
+            Immediately
+          </h1>
+        </div>
+        <a href="#" class="button animate-button">Our Services</a>
+      </div>
+      <div
+        class="slide"
+        style="
+          background-image: url('./images/VanityFair_Nas1_012516sm-e1600200443228-900x598-1.webp');
+        "
+      >
+        <div class="gradient-overlay"></div>
+        <div class="overlay-text animate-text">
+          <h1>
+            Agency For <br />
+            Outdoor <br />
+            Advertising
+          </h1>
+        </div>
+        <a href="#" class="button animate-button">Our Services</a>
+      </div>
+      <div
+        class="slide"
+        style="
+          background-image: url('./images/victor-he-tHdONyz_W9Y-unsplash.jpg');
+        "
+      >
+        <div class="gradient-overlay"></div>
+        <div class="overlay-text animate-text">
+          <h1>
+            Build Your <br />
+            Brand Image <br />
+            With Us
+          </h1>
+        </div>
+        <a href="#" class="button animate-button">Our Services</a>
+      </div>
+
+      <button class="arrow left" onclick="prevSlide()">&#10094;</button>
+      <button class="arrow right" onclick="nextSlide()">&#10095;</button>
+    </div> -->
+    <div class="banner-section">
+      <h2>
+        WE CREATE MASS <br />
+        PUBLIC'S EYE <br />
+        <span> ATTENTION </span>
+      </h2>
+      <div class="banner-content">
+        <p>
+          We are a value-driven organization. Our core values inspire us to push
+          our boundaries and set benchmarks for others
+        </p>
+        <div class="numbers">
+          <div>
+            <div class="numbers-suffix">
+              <h2 data-target="112">0</h2>
+              <h3>+</h3>
+            </div>
+            <p>Screens Place</p>
+          </div>
+          <div>
+            <div class="numbers-suffix">
+              <h2 data-target="73">0</h2>
+              <h3>k</h3>
+            </div>
+            <p>People Reached</p>
+          </div>
+          <div>
+            <div class="numbers-suffix">
+              <h2 data-target="225">0</h2>
+              <h3>+</h3>
+            </div>
+            <p>City Cover</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Our Services Section -->
+    <div class="our-services">
+      <!-- <p>What We Do</p> -->
+      <button class="whatWeDo">What We Do</button>
+      <h1>Our Services <span>.</span></h1>
+      <div class="services-cards">
+        <!-- Card 1 -->
+        <div class="card">
+          <div
+            class="card-background"
+            style="background-image: url('./images/01.jpg')"
+          ></div>
+          <div class="card-content">
+            <div class="card-header">
+              <img
+                src="./service-logo-1.png"
+                alt="Billboard Icon"
+                class="card-icon"
+              />
+            </div>
+            <h3>Outdoor Billboards</h3>
+            <p>Maximize your reach with high-impact billboards.</p>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="card">
+          <div
+            class="card-background"
+            style="background-image: url('./images/02.jpg')"
+          ></div>
+          <div class="card-content">
+            <div class="card-header">
+              <img
+                src="./service-logo-2.png"
+                alt="Billboard Icon"
+                class="card-icon"
+              />
+            </div>
+            <h3>Urban Ads</h3>
+            <p>Transform cityscapes with our building advertisements.</p>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="card">
+          <div
+            class="card-background"
+            style="background-image: url('./images/03.jpg')"
+          ></div>
+          <div class="card-content">
+            <div class="card-header">
+              <img
+                src="./service-logo-3.png"
+                alt="Billboard Icon"
+                class="card-icon"
+              />
+            </div>
+            <h3>Industrial Ads</h3>
+            <p>Connect with your industry-specific audience.</p>
+          </div>
+        </div>
+      </div>
+      <button class="explore-services-btn">Explore All Services</button>
+    </div>
+
+    <!-- banner -->
+    <div class="banner">
+      <div
+        class="left-div"
+        style="
+          background-image: url('./images/victor-he-tHdONyz_W9Y-unsplash.jpg');
+        "
+      >
+        <h1>OUTDOOR ADVERTISING SOLUTION</h1>
+      </div>
+      <div class="right-div">
+        <div class="right-inside-container">
+          <h2>
+            PROVIDING EXPERT ASSISTANCE WITH BILLBOARD ADVERTISING FOR 25 YEARS
+          </h2>
+          <div class="progress-bars">
+            <label>Planning</label>
+            <div class="progress">
+              <div class="progress-bar" data-width="90%"></div>
+            </div>
+            <label>Strategy</label>
+            <div class="progress">
+              <div class="progress-bar" data-width="70%"></div>
+            </div>
+            <label>Performance</label>
+            <div class="progress">
+              <div class="progress-bar" data-width="60%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Add another div for the right side if needed -->
+    </div>
+
+    <!-- video section -->
+    <div class="video-section">
+      <div class="left">
+        <img src="./group-discuss.png" class="video-img" alt="" />
+      </div>
+      <div class="right">
+        <h1>WE HELP TO CREATE EYE ATTENTION <span>.</span></h1>
+        <div class="right-1">
+          <p>
+            We are a value-driven organization. Our core values <br />
+            inspire us to push our boundaries and set <br />benchmarks for
+            others.
+          </p>
+          <div class="right-1-inner">
+            <img src="./images/Vector.png" alt="Billboard Icon" class="" />
+            <h4>Play video</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h1 class="adcard-title">
+      EXPLORE NEW <br />
+      ADVERTISING MEDIA
+    </h1>
+
+    <!-- adCards -->
+
+    <div id="adCards">
+      <div class="adcard" style="background-image: url('./adcards/train.jpg')">
+        <div class="adcard-inner">
+          <span style="font-size: 3em; color: rgb(255, 255, 255)">
+            <i class="fa-solid fa-train"></i>
+          </span>
+          <p>TRAIN ADVERTISING</p>
+        </div>
+      </div>
+      <div
+        class="adcard"
+        style="background-image: url('./adcards/auto-hood.jpg')"
+      >
+        <div>
+          <span style="font-size: 3em; color: rgb(255, 255, 255)">
+            <i class="fa-solid fa-car"></i>
+          </span>
+          <p>VEHICLE ADVERTISING</p>
+        </div>
+      </div>
+      <div
+        class="adcard"
+        style="background-image: url('./adcards/van-branding.jpg')"
+      >
+        <div>
+          <span style="font-size: 3em; color: rgb(255, 255, 255)">
+            <i class="fa-solid fa-truck"></i>
+          </span>
+          <p>VEHICLE ADVERTISING</p>
+        </div>
+      </div>
+      <div
+        class="adcard"
+        style="background-image: url('./adcards/3d-acrylic.jpg')"
+      >
+        <div>
+          <span style="font-size: 3em; color: rgb(255, 255, 255)">
+            <i class="fa-solid fa-rectangle-ad"></i>
+          </span>
+          <p>
+            3D ACRYLIC <br />
+            ADVERTISING
+          </p>
+        </div>
+      </div>
+      <div
+        class="adcard"
+        style="background-image: url('./adcards/retail-outlet.jpg')"
+      >
+        <div>
+          <span style="font-size: 3em; color: rgb(255, 255, 255)">
+            <i class="fa-solid fa-bullhorn"></i>
+          </span>
+          <p>
+            RETAIL <br />
+            ADVERTISING
+          </p>
+        </div>
+      </div>
+      <div class="adcard" style="background-image: url('./adcards/train.jpg')">
+        <div class="adcard-inner">
+          <span style="font-size: 3em; color: rgb(255, 255, 255)">
+            <i class="fa-solid fa-train"></i>
+          </span>
+          <p>TRAIN ADVERTISING</p>
+        </div>
+      </div>
+      <div
+        class="adcard"
+        style="background-image: url('./adcards/auto-hood.jpg')"
+      >
+        <div>
+          <span style="font-size: 3em; color: rgb(255, 255, 255)">
+            <i class="fa-solid fa-car"></i>
+          </span>
+          <p>VEHICLE ADVERTISING</p>
+        </div>
+      </div>
+      <div
+        class="adcard"
+        style="background-image: url('./adcards/van-branding.jpg')"
+      >
+        <div>
+          <span style="font-size: 3em; color: rgb(255, 255, 255)">
+            <i class="fa-solid fa-truck"></i>
+          </span>
+          <p>VEHICLE ADVERTISING</p>
+        </div>
+      </div>
+      <div
+        class="adcard"
+        style="background-image: url('./adcards/3d-acrylic.jpg')"
+      >
+        <div>
+          <span style="font-size: 3em; color: rgb(255, 255, 255)">
+            <i class="fa-solid fa-rectangle-ad"></i>
+          </span>
+          <p>
+            3D ACRYLIC <br />
+            ADVERTISING
+          </p>
+        </div>
+      </div>
+      <div
+        class="adcard"
+        style="background-image: url('./adcards/retail-outlet.jpg')"
+      >
+        <div>
+          <span style="font-size: 3em; color: rgb(255, 255, 255)">
+            <i class="fa-solid fa-bullhorn"></i>
+          </span>
+          <p>
+            RETAIL <br />
+            ADVERTISING
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3-cards -->
+
+    <div class="info-cards">
+      <div class="info-card">
+        <img src="./images/files (2).png" alt="" />
+        <h3>MULTI FORMAT MEDIA</h3>
+        <p>
+          Billboards capture repeat exposure business message more effectively
+          than almost any other marketing channel..
+        </p>
+      </div>
+      <div class="info-card">
+        <img src="./images/check-icon (1).png" alt="" />
+        <h3>SMARTLY PLANNED</h3>
+        <p>
+          Start building your brand with the strategic one. an industry that
+          your brand with the strategic one industry expertise.
+        </p>
+      </div>
+      <div class="info-card">
+        <img src="./images/Frame 25.png" alt="" />
+
+        <h3>BUILD BRANDS</h3>
+        <p>
+          A business is only as good as its strategic process, and that’s what
+          contributes to expectations with the one industry.
+        </p>
+      </div>
+    </div>
+
+    <div id="main-slideshow">
+      <div class="slideshow-container">
+        <div class="slideshow">
+          <div
+            class="photo"
+            style="
+              background-image: url('./adcards/3d-acrylic.jpg');
+              background-size: cover;
+            "
+          ></div>
+          <div
+            class="photo"
+            style="
+              background-image: url('./adcards/atm.png');
+              background-size: cover;
+            "
+          ></div>
+          <div
+            class="photo"
+            style="
+              background-image: url('./adcards/event.jpg');
+              background-size: cover;
+            "
+          ></div>
+          <div
+            class="photo"
+            style="
+              background-image: url('./adcards/retail-outlet.jpg');
+              background-size: cover;
+            "
+          ></div>
+          <div
+            class="photo"
+            style="
+              background-image: url('./adcards/college.png');
+              background-size: cover;
+            "
+          ></div>
+        </div>
+      </div>
+      <div class="slideshow-container2">
+        <div class="slideshow2">
+          <div
+            class="photo"
+            style="
+              background-image: url('./adcards/3d-acrylic.jpg');
+              background-size: cover;
+            "
+          ></div>
+          <div
+            class="photo"
+            style="
+              background-image: url('./adcards/atm.png');
+              background-size: cover;
+            "
+          ></div>
+          <div
+            class="photo"
+            style="
+              background-image: url('./adcards/event.jpg');
+              background-size: cover;
+            "
+          ></div>
+          <div
+            class="photo"
+            style="
+              background-image: url('./adcards/retail-outlet.jpg');
+              background-size: cover;
+            "
+          ></div>
+          <div
+            class="photo"
+            style="
+              background-image: url('./adcards/college.png');
+              background-size: cover;
+            "
+          ></div>
+        </div>
+      </div>
+    </div>
+    <!-- projects -->
+
+    <div class="projects">
+      <div class="project-upper">
+        <button class="whatWeDo">What We Do</button>
+        <h1>Our Projects</h1>
+      </div>
+      <div class="project-lower">
+        <div class="left">
+          <div class="overlay-hover">
+            <div>
+              <h4>A Vertical Traditional</h4>
+              <p>Digital Billboard</p>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <div class="top">
+            <div class="top-left">
+              <div class="overlay-hover">
+                <div>
+                  <h4>A Vertical Traditional</h4>
+                </div>
+              </div>
+            </div>
+            <div class="top-right">
+              <div class="overlay-hover">
+                <div>
+                  <h4>A Vertical Traditional</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bottom">
+            <div class="overlay-hover">
+              <div>
+                <h4>Billboard Information</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="empty-space">
+      <button class="explore-services-btn">Explore Gallery</button>
+    </div>
+    <div class="client-title">
+      <div></div>
+      <img src="./Group 21.png" alt="" />
+      <h1>
+        OUR <br />
+        CLIENT'S
+      </h1>
+    </div>
+
+    <div class="clients-section">
+      <div
+        class="client-logo"
+        style="background-image: url('./logos/picture29.png')"
+      ></div>
+      <div
+        class="client-logo"
+        style="background-image: url('./logos/picture1.png')"
+      ></div>
+      <div
+        class="client-logo"
+        style="background-image: url('./logos/picture2.png')"
+      ></div>
+      <div
+        class="client-logo"
+        style="background-image: url('./logos/picture3.png')"
+      ></div>
+      <div
+        class="client-logo"
+        style="background-image: url('./logos/picture4.png')"
+      ></div>
+      <div
+        class="client-logo"
+        style="background-image: url('./logos/picture5.png')"
+      ></div>
+      <div
+        class="client-logo"
+        style="background-image: url('./logos/picture6.png')"
+      ></div>
+      <div
+        class="client-logo"
+        style="background-image: url('./logos/picture7.png')"
+      ></div>
+      <div
+        class="client-logo"
+        style="background-image: url('./logos/picture8.png')"
+      ></div>
+      <div
+        class="client-logo"
+        style="background-image: url('./logos/picture9.png')"
+      ></div>
+      <div
+        class="client-logo"
+        style="background-image: url('./logos/picture10.png')"
+      ></div>
+      <div
+        class="client-logo"
+        style="background-image: url('./logos/picture11.png')"
+      ></div>
+
+      <div
+        class="client-logo"
+        style="background-image: url('./logos/picture26.png')"
+      ></div>
+      <div
+        class="client-logo"
+        style="background-image: url('./logos/picture13.png')"
+      ></div>
+      <div
+        class="client-logo"
+        style="background-image: url('./logos/picture14.png')"
+      ></div>
+      <div
+        class="client-logo"
+        style="background-image: url('./logos/picture15.png')"
+      ></div>
+      <div
+        class="client-logo"
+        style="background-image: url('./logos/picture16.png')"
+      ></div>
+
+      <div
+        class="client-logo"
+        style="background-image: url('./logos/picture17.png')"
+      ></div>
+      <div
+        class="client-logo"
+        style="background-image: url('./logos/picture18.png')"
+      ></div>
+      <div
+        class="client-logo"
+        style="background-image: url('./logos/picture19.png')"
+      ></div>
+      <div
+        class="client-logo"
+        style="background-image: url('./logos/picture20.png')"
+      ></div>
+      <div
+        class="client-logo"
+        style="background-image: url('./logos/picture21.png')"
+      ></div>
+      <div
+        class="client-logo"
+        style="background-image: url('./logos/picture22.png')"
+      ></div>
+      <div
+        class="client-logo"
+        style="background-image: url('./logos/picture23.png')"
+      ></div>
+      <div
+        class="client-logo"
+        style="background-image: url('./logos/picture24.png')"
+      ></div>
+      <div
+        class="client-logo"
+        style="background-image: url('./logos/picture25.png')"
+      ></div>
+
+      <div
+        class="client-logo"
+        style="background-image: url('./logos/picture27.png')"
+      ></div>
+      <div
+        class="client-logo"
+        style="background-image: url('./logos/picture28.png')"
+      ></div>
+      <div
+        class="client-logo"
+        style="background-image: url('./logos/picture12.png')"
+      ></div>
+    </div>
+
+    <!-- Team -->
+    <div class="team">
+      <div class="team-title">
+        <button class="whatWeDo">MEET OUR TEAM</button>
+
+        <h1>OUR TEAM</h1>
+        <div class="members">
+          <div class="member">
+            <div class="memberInfo">
+              <div>
+                <h5>Name</h5>
+                <p>Designation</p>
+              </div>
+            </div>
+          </div>
+          <div class="member">
+            <div class="memberInfo">
+              <div>
+                <h5>Name</h5>
+                <p>Designation</p>
+              </div>
+            </div>
+          </div>
+          <div class="member">
+            <div class="memberInfo">
+              <div>
+                <h5>Name</h5>
+                <p>Designation</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- contact us section -->
+    <div class="contact-section">
+      <div class="faqs">
+        <div class="faq-inner">
+          <h1>Feel Free To Ask Questions</h1>
+        </div>
+        <!-- Add more FAQ items here -->
+      </div>
+      <div class="contact-form">
+        <form>
+          <h2>REACH OUT VIA THE FORM BELOW</h2>
+          <input type="text" placeholder="Full Name" name="fullname" />
+          <input type="email" placeholder="Email" name="email" />
+          <input type="tel" placeholder="Telephone" name="telephone" />
+          <input type="text" placeholder="Phone" name="phone" />
+          <button type="submit">Submit Form</button>
+        </form>
+      </div>
+    </div>
+
+    <!--call to action footer  -->
+    <div class="cta-section">
+      <div class="cta-left">
+        <h1>WANT TO<br />WORK WITH<br />US?</h1>
+      </div>
+      <div class="cta-right">
+        <p>
+          <span>Contact Us</span> <br />
+          (+68) 120034509 <br />
+          info@yourdomain.com <br />
+          005 Stokes Isle Apt. 896, <br />
+          enaville 10010, USA
+        </p>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <div class="footer-part" id="footer-part1">
+        <img src="./images/Group 22.svg" alt="Outmedia Logo" class="footer-logo" />
+        <p>© Copyrights 2023 Outmedia<br />All rights reserved.</p>
+      </div>
+      <div class="footer-part" id="footer-part2">
+        <h4>USEFUL LINKS</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+        </ul>
+      </div>
+      <div class="footer-part" id="footer-part3">
+        <h4>Subscribe</h4>
+        <div class="social-media-links">
+          <!-- Replace # with actual links -->
+          <a href="#">Facebook</a>
+          <a href="#">Twitter</a>
+          <a href="#">Instagram</a>
+          <a href="#">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- below is javascript  -->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
+      integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"
+      integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
