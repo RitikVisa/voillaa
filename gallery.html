@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hero Section with Slider</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./gallery.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="nav-left">
+        <img src="./images/voilaa logo.png" alt="" class="nav-logo2" />
+        <img src="./images/Group 22.svg" alt="Logo" class="nav-logo" />
+      </div>
+      <div class="nav-middle">
+        <a href="./index.html">Home</a>
+        <a href="./service.html">About</a>
+        <a href="./service.html">Services</a>
+        <a href="./gallery.html">Gallery</a>
+      </div>
+      <div class="nav-right">
+        <a href="#" class="social-icon"
+          ><span><i class="fa-brands fa-facebook"></i></span
+        ></a>
+        <!-- Replace FB with actual icon -->
+        <a href="#" class="social-icon"
+          ><span><i class="fa-brands fa-x-twitter"></i></span
+        ></a>
+        <!-- Replace TW with actual icon -->
+        <a href="#" class="social-icon"
+          ><span><i class="fa-brands fa-instagram"></i></span
+        ></a>
+        <!-- Replace IG with actual icon -->
+        <a href="#" class="social-icon"
+          ><span><i class="fa-brands fa-linkedin"></i></span
+        ></a>
+        <!-- Replace LN with actual icon -->
+        <button class="contact-btn">Contact Us</button>
+      </div>
+    </nav>
+
+  
+    <div class="gallery-container">
+        <h1>OUR GALLERY</h1>
+        <h4>Explore Our Work</h4>
+        <div class="gallery">
+            <!-- Repeat this block for each image -->
+            
+
+            <!-- Repeat for other images -->
+            
+            <!-- ... more gallery items ... -->
+            <div class="gallery-item" onclick="openOverlay(this)">
+                <img src="./adcards/adcard1.jpg" alt="Image 1">
+                <div class="image-overlay">
+                  <img src="./plus.png" alt="">
+                </div>
+            </div>
+            <div class="gallery-item" onclick="openOverlay(this)">
+                <img src="./adcards/auto-hood.jpg" alt="Image 1">
+                <div class="image-overlay">
+                    <img src="./plus.png" alt="">
+                  </div>
+            </div>
+            <div class="gallery-item" onclick="openOverlay(this)">
+                <img src="./adcards/canopy.png" alt="Image 1">
+                <div class="image-overlay">
+                    <img src="./plus.png" alt="">
+                  </div>
+            </div>
+            <div class="gallery-item" onclick="openOverlay(this)">
+                <img src="./adcards/college.png" alt="Image 1">
+                <div class="image-overlay">
+                    <img src="./plus.png" alt="">
+                  </div>
+            </div>
+            <div class="gallery-item" onclick="openOverlay(this)">
+                <img src="./adcards/event.jpg" alt="Image 1">
+                <div class="image-overlay">
+                    <img src="./plus.png" alt="">
+                  </div>
+            </div>
+            <div class="gallery-item" onclick="openOverlay(this)">
+                <img src="./adcards/gsb.jpg" alt="Image 1">
+                <div class="image-overlay">
+                    <img src="./plus.png" alt="">
+                  </div>
+            </div>
+            <div class="gallery-item" onclick="openOverlay(this)">
+                <img src="./adcards/promotional-Island-Tower.png" alt="Image 1">
+                <div class="image-overlay">
+                    <img src="./plus.png" alt="">
+                  </div>
+            </div>
+            <div class="gallery-item" onclick="openOverlay(this)">
+                <img src="./adcards/retail-branding.jpg" alt="Image 1">
+                <div class="image-overlay">
+                    <img src="./plus.png" alt="">
+                  </div>
+            </div>
+            <div class="gallery-item" onclick="openOverlay(this)">
+                <img src="./adcards/retail-outlet.jpg" alt="Image 1">
+                <div class="image-overlay">
+                    <img src="./plus.png" alt="">
+                  </div>
+            </div>
+            <div class="gallery-item" onclick="openOverlay(this)">
+                <img src="./adcards/selfie.jpg" alt="Image 1">
+                <div class="image-overlay">
+                    <img src="./plus.png" alt="">
+                  </div>
+            </div>
+            <div class="gallery-item" onclick="openOverlay(this)">
+                <img src="./adcards/tea-stall.jpg" alt="Image 1">
+                <div class="image-overlay">
+                    <img src="./plus.png" alt="">
+                  </div>
+            </div>
+            <div class="gallery-item" onclick="openOverlay(this)">
+                <img src="./adcards/train.jpg" alt="Image 1">
+                <div class="image-overlay">
+                    <img src="./plus.png" alt="">
+                  </div>
+            </div>
+            <div class="gallery-item" onclick="openOverlay(this)">
+                <img src="./adcards/van-branding.jpg" alt="Image 1">
+                <div class="image-overlay">
+                    <img src="./plus.png" alt="">
+                  </div>
+            </div>
+            <div class="gallery-item" onclick="openOverlay(this)">
+                <img src="./adcards/van1.jpg" alt="Image 1">
+                <div class="image-overlay">
+                    <img src="./plus.png" alt="">
+                  </div>
+            </div>
+            <div class="gallery-item" onclick="openOverlay(this)">
+                <img src="./adcards/van2.jpg" alt="Image 1">
+                <div class="image-overlay">
+                    <img src="./plus.png" alt="">
+                  </div>
+            </div>
+            <div class="gallery-item" onclick="openOverlay(this)">
+                <img src="./adcards/van3.jpg" alt="Image 1">
+                <div class="image-overlay">
+                    <img src="./plus.png" alt="">
+                  </div>
+            </div>
+            <div class="gallery-item" onclick="openOverlay(this)">
+                <img src="./adcards/van4.png" alt="Image 1">
+                <div class="image-overlay">
+                    <img src="./plus.png" alt="">
+                  </div>
+            </div>
+            <div class="gallery-item" onclick="openOverlay(this)">
+                <img src="./adcards/van5.jpg" alt="Image 1">
+                <div class="image-overlay">
+                    <img src="./plus.png" alt="">
+                  </div>
+            </div>
+            <div class="gallery-item" onclick="openOverlay(this)">
+                <img src="./adcards/3dsign.jpg" alt="Image 1">
+                <div class="image-overlay">
+                    <img src="./plus.png" alt="">
+                  </div>
+            </div>
+            <div class="gallery-item" onclick="openOverlay(this)">
+                <img src="./adcards/3dsign2.jpg" alt="Image 1">
+                <div class="image-overlay">
+                    <img src="./plus.png" alt="">
+                  </div>
+            </div>
+            <div class="gallery-item" onclick="openOverlay(this)">
+                <img src="./adcards/3dsign4.jpg" alt="Image 1">
+                <div class="image-overlay">
+                    <img src="./plus.png" alt="">
+                  </div>
+            </div>
+            <div class="gallery-item" onclick="openOverlay(this)">
+                <img src="./adcards/activa ad.jpg" alt="Image 1">
+                <div class="image-overlay">
+                    <img src="./plus.png" alt="">
+                  </div>
+            </div>
+            <div class="gallery-item" onclick="openOverlay(this)">
+                <img src="./adcards/asianpaint-selfie-point.jpg" alt="Image 1">
+                <div class="image-overlay">
+                    <img src="./plus.png" alt="">
+                  </div>
+            </div>
+            <div class="gallery-item" onclick="openOverlay(this)">
+                <img src="./adcards/selfiepoint1.png" alt="Image 1">
+                <div class="image-overlay">
+                    <img src="./plus.png" alt="">
+                  </div>
+            </div>
+            <div class="gallery-item" onclick="openOverlay(this)">
+                <img src="./adcards/selfiepointcollage.png" alt="Image 1">
+                <div class="image-overlay">
+                    <img src="./plus.png" alt="">
+                  </div>
+            </div>
+            <div class="gallery-item" onclick="openOverlay(this)">
+                <img src="./adcards/billboard-bridge.jpg" alt="Image 1">
+                <div class="image-overlay">
+                    <img src="./plus.png" alt="">
+                  </div>
+            </div>
+            <div class="gallery-item" onclick="openOverlay(this)">
+                <img src="./adcards/eveent.jpg" alt="Image 1">
+                <div class="image-overlay">
+                    <img src="./plus.png" alt="">
+                  </div>
+            </div>
+            <div class="gallery-item" onclick="openOverlay(this)">
+                <img src="./adcards/island2.jpg" alt="Image 1">
+                <div class="image-overlay">
+                    <img src="./plus.png" alt="">
+                  </div>
+            </div>
+            <div class="gallery-item" onclick="openOverlay(this)">
+                <img src="./adcards/physicswalla-event.png" alt="Image 1">
+                <div class="image-overlay">
+                    <img src="./plus.png" alt="">
+                  </div>
+            </div>
+            <div class="gallery-item" onclick="openOverlay(this)">
+                <img src="./adcards/pnbAtm.png" alt="Image 1">
+                <div class="image-overlay">
+                    <img src="./plus.png" alt="">
+                  </div>
+            </div>
+            <div class="gallery-item" onclick="openOverlay(this)">
+                <img src="./adcards/promotional-Island-Tower.png" alt="Image 1">
+                <div class="image-overlay">
+                    <img src="./plus.png" alt="">
+                  </div>
+            </div>
+            <div class="gallery-item" onclick="openOverlay(this)">
+                <img src="./adcards/train2.jpg" alt="Image 1">
+                <div class="image-overlay">
+                    <img src="./plus.png" alt="">
+                  </div>
+            </div>
+            <div class="gallery-item" onclick="openOverlay(this)">
+                <img src="./adcards/train3.png" alt="Image 1">
+                <div class="image-overlay">
+                    <img src="./plus.png" alt="">
+                  </div>
+            </div>
+            <div class="gallery-item" onclick="openOverlay(this)">
+                <img src="./adcards/ultratech-balloon.png" alt="Image 1">
+                <div class="image-overlay">
+                    <img src="./plus.png" alt="">
+                  </div>
+            </div>
+            <div class="gallery-item" onclick="openOverlay(this)">
+                <img src="./adcards/ultratech.png" alt="Image 1">
+                <div class="image-overlay">
+                    <img src="./plus.png" alt="">
+                  </div>
+            </div>
+            <div class="gallery-item" onclick="openOverlay(this)">
+                <img src="./adcards/unionbank.jpg" alt="Image 1">
+                <div class="image-overlay">
+                    <img src="./plus.png" alt="">
+                  </div>
+            </div>
+            <div class="gallery-item" onclick="openOverlay(this)">
+                <img src="./adcards/yes.jpg" alt="Image 1">
+                <div class="image-overlay">
+                    <img src="./plus.png" alt="">
+                  </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="overlay" onclick="closeOverlay()">
+        <span class="overlay-arrow left-arrow" onclick="navigateOverlay(-2)">&#10094;</span>
+        <img id="overlay-image" src="" alt="Enlarged view">
+        <span class="overlay-arrow right-arrow" onclick="navigateOverlay(2)">&#10095;</span>
+    </div>
+    
+ <!-- contact us section -->
+ <div class="contact-section">
+    <div class="faqs">
+      <div class="faq-inner">
+        <h1>Feel Free To Ask Questions</h1>
+      </div>
+      <!-- Add more FAQ items here -->
+    </div>
+    <div class="contact-form">
+      <form>
+        <h2>REACH OUT VIA THE FORM BELOW</h2>
+        <input type="text" placeholder="Full Name" name="fullname" />
+        <input type="email" placeholder="Email" name="email" />
+        <input type="tel" placeholder="Telephone" name="telephone" />
+        <input type="text" placeholder="Phone" name="phone" />
+        <button type="submit">Submit Form</button>
+      </form>
+    </div>
+  </div>
+
+    <!--call to action footer  -->
+    <div class="cta-section">
+      <div class="cta-left">
+        <h1>WANT TO<br />WORK WITH<br />US?</h1>
+      </div>
+      <div class="cta-right">
+        <p>
+          <span>Contact Us</span> <br />
+          (+68) 120034509 <br />
+          info@yourdomain.com <br />
+          005 Stokes Isle Apt. 896, <br />
+          enaville 10010, USA
+        </p>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <div class="footer-part" id="footer-part1">
+        <img src="./images/Group 22.svg" alt="Outmedia Logo" class="footer-logo" />
+        <p>© Copyrights 2023 Outmedia<br />All rights reserved.</p>
+      </div>
+      <div class="footer-part" id="footer-part2">
+        <h4>USEFUL LINKS</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+        </ul>
+      </div>
+      <div class="footer-part" id="footer-part3">
+        <h4>Subscribe</h4>
+        <div class="social-media-links">
+          <!-- Replace # with actual links -->
+          <a href="#">Facebook</a>
+          <a href="#">Twitter</a>
+          <a href="#">Instagram</a>
+          <a href="#">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- below is javascript  -->
+    <script src="./gallery.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
+      integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"
+      integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    
+  </body>
+</html>

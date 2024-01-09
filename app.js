@@ -105,37 +105,6 @@ let observer1 = new IntersectionObserver((entries, observer) => {
 
 observer1.observe(document.querySelector('.banner-section'));
 
-// gallery animation
-let lastScrollTop = 0;
-document.addEventListener('scroll', function() {
-    let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
-    let slideshow = document.querySelector('.slideshow');
-
-    if (currentScroll > lastScrollTop) {
-        // Scrolling down
-        slideshow.style.transform = 'translateX(-10%)';
-    } else {
-        // Scrolling up
-        slideshow.style.transform = 'translateX(0)';
-    }
-    lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // For Mobile or negative scrolling
-}, false);
-
-// gallery animation 2nd slide
-let lastScrollTop2 = 0;
-document.addEventListener('scroll', function() {
-    let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
-    let slideshow2 = document.querySelector('.slideshow2');
-
-    if (currentScroll > lastScrollTop2) {
-        // Scrolling down
-        slideshow2.style.transform = 'translateX(10%)';
-    } else {
-        // Scrolling up
-        slideshow2.style.transform = 'translateX(0)';
-    }
-    lastScrollTop2 = currentScroll <= 0 ? 0 : currentScroll; // For Mobile or negative scrolling
-}, false);
 
 
 var tl3 = gsap.timeline({scrollTrigger:{
@@ -190,3 +159,21 @@ tl.to(".video-img",{
   transform: "scale(1.2)"
 
 })
+
+var tl4 = gsap.timeline({scrollTrigger:{
+  trigger:"#main-slideshow",
+  start:"50% 60%",
+  end: "150% 60%",
+  scrub:2,
+  pin: true
+}})
+
+tl4.to(".slideshow",{
+left: "0%"
+
+},"c")
+
+.to(".slideshow2",{
+  left: "0%"
+},"c")
+
